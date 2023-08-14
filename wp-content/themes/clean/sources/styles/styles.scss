@@ -1,0 +1,19 @@
+@import "config/mixins";
+@import "config/variables";
+
+@import "base/fonts";
+@import "base/base";
+
+@import "blocks/container";
+@import "blocks/content";
+@import "blocks/breadcrumbs";
+
+@import "../../blocks/header/header";
+@import "../../blocks/footer/footer";
+
+@import "../../blocks/banner/banner";
+@import "../../blocks/screen/screen";
+@import "../../blocks/price/price";
+@import "../../blocks/metrics/metrics";
+@import "../../blocks/json/json";
+@import "../../blocks/sdk/sdk";

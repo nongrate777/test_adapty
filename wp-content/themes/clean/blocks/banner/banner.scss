@@ -1,0 +1,86 @@
+.banner {
+  padding-bottom: 2.5rem;
+  padding-top: 3.75rem;
+  background-color: $white;
+  &__left{
+    width: 50%;
+    @include media768{
+      width: 100%;
+    }
+  }
+  &__right{
+    width: 50%;
+    @include media768{
+      display: none;
+    }
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+
+    @include media768{
+      flex-direction: column;
+    }
+  }
+
+
+  @include media576 {
+    padding: 50px 0;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 900;
+    margin-top: 1.5rem;
+    max-width: 550px;
+    @include media576 {
+      font-size: 1.5rem;
+      font-weight: 900;
+      line-height: 2rem;
+    }
+  }
+
+  p {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: rgb(136 136 136);
+    text-transform: uppercase;
+
+    @include media576 {
+      font-size: 18px;
+    }
+  }
+  &__button{
+    margin-top: 1.25rem;
+    a{
+      background-color: rgb(103 32 255);
+      border-color: rgb(103 32 255);
+      border-radius: 8px;
+      border-width: 1px;
+      box-shadow: 0 0 #0000,0 0 #0000, 0px 4px 12px rgba(103,32,255,.25);
+      color: rgb(255 255 255);
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      line-height: 20px;
+      padding: 1.25rem 1.5rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: 0.5s;
+      &:hover{
+        --tw-border-opacity:1;
+        --tw-bg-opacity: 1;
+        --tw-text-opacity: 1;
+        --tw-shadow: 0px 12px 24px rgba(103,32,255,.25);
+        --tw-shadow-colored: 0px 12px 24px var(--tw-shadow-color);
+        background-color: rgb(141 69 246/var(--tw-bg-opacity));
+        border-color: rgb(141 69 246/var(--tw-border-opacity));
+        box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+        color: rgb(255 255 255/var(--tw-text-opacity))
+      }
+
+    }
+
+  }
+}

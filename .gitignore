@@ -1,0 +1,99 @@
+.DS_Store
+.svn
+.cvs
+*.bak
+*.swp
+Thumbs.db
+docker-compose.yaml
+apple-touch-icon.png
+apple-touch-icon-precomposed.png
+/nbproject
+/cache
+wp-content/webp-express
+wp-content/mmr
+wp-content/uploads/cache/*
+# wordpress specific
+wp-content/upgrade/*
+wp-content/backup-db/*
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/*
+wp-content/cache/supercache/*
+wp-content/uploads/backwpup*
+# wpengine specific
+.smushit-status
+.gitattributes
+_wpeprivate*
+wp-content/object-cache.php
+wp-content/mysql.sql
+wp-content/updraft/
+
+# large/disallowed file types
+# a CDN should be used for these
+*.hqx
+*.bin
+*.exe
+*.dll
+*.deb
+*.dmg
+*.iso
+*.img
+*.msi
+*.msp
+*.msm
+*.mid
+*.midi
+*.kar
+*.mp3
+*.ogg
+*.m4a
+*.ra
+*.3gpp
+*.3gp
+*.mp4
+*.mpeg
+*.mpg
+*.mov
+*.webm
+*.flv
+*.m4v
+*.mng
+*.asx
+*.asf
+*.wmv
+*.avi
+.vscode/settings.json
+.idea
+/.idea
+.idea/*
+/wp-content/themes/*/node_modules/
+
+cat ~/.gitignore
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+.idea

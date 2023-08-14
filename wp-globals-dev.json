@@ -1,0 +1,10 @@
+{
+  "db_host": "localhost",
+  "db_name": "testovich",
+  "db_user": "wordpress",
+  "db_password": "wordpress",
+  "new_domain": "https://testovich.test/",
+  "wp_debug": true,
+  "table_prefix": "wp_",
+  "api_host": "https://api.avgr.it/api/"
+}
