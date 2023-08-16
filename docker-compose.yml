@@ -23,8 +23,8 @@ services:
       WORDPRESS_CONFIG_EXTRA: |
         define( 'WP_DEBUG', true );
         $table_prefix = 'wp_';
-        define( 'WP_HOME', 'http://testovich1.test:8000' );
-        define( 'WP_SITEURL', 'http://testovich1.test:8000' );
+        define( 'WP_HOME', 'http://testovich2.test:8000' );
+        define( 'WP_SITEURL', 'http://testovich2.test:8000' );
     volumes:
       - wordpress_data:/var/www/html
 
