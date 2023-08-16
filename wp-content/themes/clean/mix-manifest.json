@@ -2,6 +2,9 @@
     "/assets/js/scripts.js": "/assets/js/scripts.js",
     "/assets/styles/styles.css": "/assets/styles/styles.css",
     "/assets/styles/admin.css": "/assets/styles/admin.css",
+    "/assets/js/scripts.js.map": "/assets/js/scripts.js.map",
+    "/assets/styles/styles.css.map": "/assets/styles/styles.css.map",
+    "/assets/styles/admin.css.map": "/assets/styles/admin.css.map",
     "/assets/js/scripts.min.js": "/assets/js/scripts.min.js",
     "/assets/styles/styles.min.css": "/assets/styles/styles.min.css",
     "/assets/styles/admin.min.css": "/assets/styles/admin.min.css"
